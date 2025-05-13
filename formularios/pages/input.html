@@ -14,26 +14,35 @@
     <nav>
         <a href="../index.html">inicio</a>
         <a href="">inpust</a>
-        <a href="./button.html">buttons</a>
+        <a href="../pages/button.html">buttons</a>
+        <a href="../pages/contacto.html">formulario de contacto</a>
     </nav>
     <section>
         <p>los inputs son los elemntos que se crean un conetenido de un formulario, y nos permiten
         interactuar con el usuario, recolectar informacion de nuestra pagina</p>
-        <input type="text">
-        <input type="email">
+        <input type="text" disabled>
+        <input type="email" required>
         <input type="password">
-        <input type="tel">
+        <input type="tel" placeholder="ingresa tu celular">
         <p>TAREA: averiguar los tipos de input</p>
-        <input type="text"> - Caja de texto para que el usuario introduzca texto.
-        <input type="password"> - Caja de texto para introducir contraseñas (el texto se muestra como asteriscos u otro carácter oculto).
-        <input type="number"> - Caja de texto para introducir números.
-        <input type="email"> - Caja de texto para introducir direcciones de correo electrónico.
-        <input type="checkbox"> - Casilla de verificación que permite al usuario seleccionar una o varias opciones.
-        <input type="radio"> - Botón de opción que permite al usuario seleccionar una sola opción de un grupo de opciones.
-        <input type="date"> - Caja de texto desplegable para seleccionar una fecha.
-        <input type="file"> - Botón para cargar archivos desde el dispositivo del usuario.
-        <input type="submit"> - Botón para enviar el formulario.
-        <input type="reset"> - Botón para restablecer el formulario a sus valores predeterminados.
+        <input type="text"> 
+        <input type="password"> 
+        <input type="number"> 
+        <input type="email"> 
+        <input type="checkbox"> 
+        <input type="radio"> 
+        <input type="date"> 
+        <input type="file"> 
+        <input type="submit"> 
+        <input type="reset">
+        <p>tarea averiguar los atributos boolanos</p>
+        <!-- averiguar los atributos boolanos-->
+        <button disabled>Botón deshabilitado</button>
+        <input type="text" value="Texto de solo lectura" readonly>
+        <input type="checkbox" id="casilla" checked>
+        <label for="casilla">Casilla marcada por defecto</label>
+        <input type="text" name="nombre" required>
+        <input type="text" name="nombre" autofocus>
     </section>
 
     <script src="../js/script.js"></script>
